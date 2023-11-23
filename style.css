@@ -1,0 +1,83 @@
+.btn {
+    width: 220px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    transition: 1.2s all;
+    outline: 0;
+    border-radius: 30px;
+}
+
+
+
+.btn:hover {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .3);
+    background: red;
+}
+
+.modal {
+    position: fixed;
+    top: auto;
+    left: auto;
+    width: 100%;
+    overflow: hidden;
+    margin: 80px auto;
+    display: none;
+}
+
+.modal__content {
+    position: relative;
+    padding: 40px;
+    background-color: darkslategrey;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.modal__title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.modal__input {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 280px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.modal .btn {
+    display: block;
+    width: 280px;
+    margin: 0 auto
+}
+.modal .btn:last-child {
+    margin-top: 20px;
+}
+
+.show {
+    display: block
+}
+
+.hide {
+    display: none
+}
